@@ -14,7 +14,7 @@ const chatCompletion = async (prompt) => {
           role: "system", content: 'You are a helpful assistant.' },
         { role: "user", content: prompt }
       ],
-      model: "gpt-4",
+      model: "gpt-3.5-turbo",
       max_tokens: 1080,
       temperature: 0.8,
 
